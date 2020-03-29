@@ -101,7 +101,7 @@ def main():
 
     artists = artists.drop('image', axis=1)
     artists = artists.drop_duplicates().reset_index(drop=True)
-    artists['tags'] = artists['name'].progress_apply(lookup_tags)
+    #artists['tags'] = artists['name'].progress_apply(lookup_tags)
     artists[["playcount", "listeners"]] = artists[["playcount", "listeners"]].astype(int)
     artists = artists.sort_values("listeners", ascending=False)
 
