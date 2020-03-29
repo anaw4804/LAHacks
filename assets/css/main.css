@@ -82,7 +82,7 @@ input, select, textarea {
 		-ms-overflow-style: scrollbar;
 	}
 
-	@media screen and (max-width: 480px) {
+	@media screen and (max-width: 0px) {
 
 		html, body {
 			min-width: 320px;
@@ -3262,7 +3262,7 @@ input, select, textarea {
 			}
 
 		.wrapper.alt {
-			background-color: #261c3e;
+			background-color: #F9a66C;
 		}
 
 		.wrapper.style1 {
