@@ -71,6 +71,7 @@ input, select, textarea {
 	appearance: none;
 }
 
+
 /* Basic */
 
 	@-ms-viewport {
@@ -186,6 +187,7 @@ input, select, textarea {
 		/*header font color and details*/
 		font-family: 'Permanent Marker', cursive;
 		color: #e8b38c;
+		text-align: center;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -236,6 +238,16 @@ input, select, textarea {
 	h6 {
 		font-size: 0.6em;
 	}
+
+	/* Logo CSS */
+	#intro img {
+		border-radius: 125px;
+		padding: 25px;
+		position: absolute;
+		right: 39%;
+		top: 7%;
+	}
+
 
 	@media screen and (max-width: 736px) {
 
@@ -2677,7 +2689,7 @@ input, select, textarea {
 		cursor: default;
 		list-style: none;
 		margin-left: -1em;
-		padding-left: 0;
+		padding-left: 40%;
 	}
 
 		ul.actions li {
@@ -2894,6 +2906,17 @@ input, select, textarea {
 		margin-top: -0.6em;
 		line-height: 1.5em;
 	}
+
+/* Top part heading our by */
+#intro p.nameOurs {
+	font-size: .9em;
+	text-align: right;
+	font-family: 'Permanent Marker', cursive;
+}
+
+#intro p.aboutShort {
+	text-align: center;
+}
 
 /* Split */
 
@@ -3907,6 +3930,9 @@ input, select, textarea {
 					color: E8B38C;
 					font-size: 1em;
 				}
+				#intro img {
+					position: static;
+				}
 
 			}
 
@@ -3916,5 +3942,6 @@ input, select, textarea {
 				background-attachment: scroll;
 				background-color: 909E84;
 			}
+
 
 		}
